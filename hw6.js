@@ -1,18 +1,19 @@
 //Task 1
 
-let randomFromZeroToOne = Math.floor(Math.random() * 11);
+
 function checkMoreLess(num) {
+    const randomFromZeroToOne = Math.floor(Math.random() * 11);
     if(randomFromZeroToOne < num) {
-        return "My number is greater than a randomly generated number!";
+        return "My number is greater than a randomly generated number! Generated number is " + randomFromZeroToOne;
     } else if(randomFromZeroToOne > num) {
-        return "Randomly generated number is more than my number!";
+        return "Randomly generated number is " + randomFromZeroToOne + " It's more than my number!";
     } else if(randomFromZeroToOne === num) {
-        return "Randomly generated number equals my number!";
+        return "Randomly generated number is " + randomFromZeroToOne + " And it's equals my number!";
     }
 }
 
 console.log(checkMoreLess(6));
-console.log(randomFromZeroToOne);
+
 
 //Tas 2
 
