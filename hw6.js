@@ -7,7 +7,7 @@ function checkMoreLess(num) {
         return "My number is greater than a randomly generated number! Generated number is " + randomFromZeroToOne;
     } else if(randomFromZeroToOne > num) {
         return "Randomly generated number is " + randomFromZeroToOne + " It's more than my number!";
-    } else if(randomFromZeroToOne === num) {
+    } else {
         return "Randomly generated number is " + randomFromZeroToOne + " And it's equals my number!";
     }
 }
