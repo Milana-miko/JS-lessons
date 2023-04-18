@@ -142,3 +142,13 @@ function examPassedOrFailed(arr) {
     }
 }
 examPassedOrFailed(students);
+
+function examFailed(arr) {
+    let result = 0;
+    for(let i = 0; i < arr.length; i++) {
+        if(arr[i].passed === false) {
+            result ++;
+        }
+    } return result;
+}
+console.log(examFailed(students));
