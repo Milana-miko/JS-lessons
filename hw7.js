@@ -1,5 +1,5 @@
 function findPow(num1, num2) {
-    for(let num = 1; num <= num2;  num++) {
+    for(let num = num1; num <= num2;  num++) {
         console.log(Math.pow(num, 2));
     }
 }
