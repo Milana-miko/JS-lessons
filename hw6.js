@@ -12,7 +12,7 @@ function checkMoreLess(num) {
     }
 }
 
-console.log(checkMoreLess(6));
+//console.log(checkMoreLess(6));
 
 
 //Tas 2
@@ -29,7 +29,7 @@ function checkBirthday(bDay, bMonth) {
     }
 }
 
-checkBirthday(16, 3);
+checkBirthday(19, 3);
 checkBirthday(2, 11);
 
 
