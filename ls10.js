@@ -30,3 +30,12 @@ function reversedWord(name) {
 } 
 
 reversedWord("Ani");
+
+
+const reversedName = (personName) => {
+    let name = personName.charAt(0).toLowerCase() + personName.substring(1, personName.length-1) + personName.charAt(personName.length-1).toUpperCase();
+    let splitName = name.split('');
+    return typeof(splitName);
+};
+
+console.log(reversedName("Nara"));
