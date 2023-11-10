@@ -9,7 +9,3 @@ function convertNumberToWords(num) {
 }
 
 export default convertNumberToWords;
-
-
-
-

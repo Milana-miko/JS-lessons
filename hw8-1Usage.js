@@ -13,4 +13,3 @@ console.log(chalk.bgBlue.inverse.yellow(convertNumberToWords(5)));
 console.log(chalk.bgBlue.underline(convertNumberToWords(8)));
 
 chalkAnimation.rainbow(convertNumberToWords(10));
-

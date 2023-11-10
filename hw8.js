@@ -1,4 +1,4 @@
-//Test
+// Testing conflict
 function convertNumberToWords (num) {
     const numberToWord = ["Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"];
     return numberToWord[num];
@@ -6,3 +6,4 @@ function convertNumberToWords (num) {
 
 export default convertNumberToWords;
  
+
